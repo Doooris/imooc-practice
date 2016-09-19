@@ -1,0 +1,334 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+body{
+    width:100%;
+    height:100%;
+    min-width:1200px;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    background:url("http://static.mukewang.com/static/img/index/bk.jpg") no-repeat;
+    background-size:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:500px;
+    padding:10px 20px;
+}
+a.logo{
+    width:140px;
+    height:60px;
+    display:block;
+    background:url("http://static.mukewang.com/static/img/index/logo.png") no-repeat center center;
+    background-size:100%;
+}
+ul.nav{
+    position:absolute;
+    left:170px;
+    top:10px;
+}
+ul.nav li{
+    display:inline-block;
+}
+ul.nav a{
+    height:40px;
+    width:50px;
+    color:#07111b;
+    display:block;
+    text-align:center;
+    font-size:17px;
+    position:relative;
+    font-weight:500;
+    padding:20px 0 0 20px;
+}
+.headleft a:hover,.headright a:hover{
+    color:#ec1500;
+}
+.headright .fa-search:hover,.headright .download .fa-mobile:hover{
+    color:#ec1500;
+}
+div.headright{
+    float:right;
+    position:relative;
+    top:-55px;
+}
+div.headright form{
+    position:absolute;
+    right:210px;
+    top:14px;
+    /*display: none;*/
+}
+div.headright input{
+    border-style: none;
+    background-color:#FAFAFA;
+    border-bottom:solid 1px #D9DDE1;
+    width:230px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+div.headright form input::-webkit-input-placeholder{
+    color:#787D82;
+}
+div.headright form input:focus,div.headright form input:active{
+    outline:none;
+}
+div.headright i.fa-search{
+    position:absolute;
+    right:210px;
+    top:18px;
+    color:#787D82;
+    cursor:pointer;
+}
+div.headright ul{
+    margin-right:-25px;
+}
+div.headright ul li {
+    display: inline-block;
+    line-height:60px;
+}
+div.headright ul li a{
+    font-size: 15px;
+    color:#787D82;
+}
+div.headright .download{
+    margin-right:45px;
+    position:relative;
+}
+div.headright .download i.fa-mobile{
+    font-size:25px;
+    color:#787D82;
+}
+div.headright .download .codearea{
+    position:absolute;
+    background:#fff;
+    top:57px;
+    left:-75px;
+    text-align:center;
+    padding:20px 30px 0px 30px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index:9999;
+}
+div.headright .codearea .apptext{
+    font:bold 14px/15px "微软雅黑";
+    color:#14191e;
+    }
+div.headright .codearea .apptype{
+    font:12px/20px "微软雅黑";
+    color:#787d82;
+    height:30px;
+}
+.headright .app-about .login,.headright .app-about .register{
+    height:60px;
+    width:60px;
+    display:block;
+}
+.intro{
+    width:1200px;
+    height:460px;
+    margin:80px auto 0;
+    position: relative;
+}
+#container{
+    width:1200px;
+    height:460px;
+    position:relative;
+    overflow: hidden;
+}
+#container #images{
+    position:absolute;
+    width:6000px;
+    height:460px;
+    z-index: 1;
+}
+#container #images img{
+    float:left;
+}
+#container #btns{
+    position:absolute;
+    width:60px;
+    height:10px;
+    bottom:35px;
+    right:25px;
+    z-index: 2;
+}
+#container #btns span{
+    width:10px;
+    height:10px;
+    background-color:#fff;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    float:left;
+    margin-left:10px;
+    opacity:0.5;
+    cursor:pointer;
+}
+#container #btns .on{
+    opacity:1;
+}
+#container .arrow{
+    position:absolute;
+    z-index:2;
+    height:80px;
+    width:40px;
+    text-align:center;
+    color:#FFFFFF;
+    line-height:80px;
+    font-size:36px;
+    cursor:pointer;
+    font-weight:300;
+    bottom:50%;
+}
+#container #prev{
+    background-image:url("http://static.mukewang.com/static/img/home/pre.png");
+    background-repeat:no-repeat ;
+    background-position:center;
+    transform: rotate(180deg);
+    left:245px;
+}
+#container #next{
+    background-image:url("http://static.mukewang.com/static/img/home/pre.png");
+    background-repeat: no-repeat ;
+    background-position:center;
+    right:-10px;
+}
+#container .arrow:hover{
+    background-color:rgba(0,0,0,0.4);
+}
+#menue{
+    width:245px;
+    height:460px;
+    box-sizing: border-box;
+    background-color:rgba(0,0,0,0.2);
+    /*padding:10px 25px;*/
+    position:absolute;
+    z-index:2;
+    top:0;
+    cursor:pointer;
+}
+#menue li.field1{
+    padding-top:10px;
+}
+#menue li:hover{
+    background-color:rgba(100,100,100,0.6);
+}
+#menue li a{
+    color:#fff;
+    font-size:17px;
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    line-height:63px;
+    padding-left:10px;
+    padding-right:5px;
+    position:relative;
+    width:185px;
+    margin:auto;
+}
+
+#menue li span{
+    color: rgba(255,255,255,0.4);
+    position:absolute;
+    right:0;
+    font-size:10px;
+}
+#menue .field7 a{
+    border-bottom:none;
+}
+#menue-content>div{
+    position:absolute;
+    left:245px;
+    top:0;
+    width:652px;
+    height:429px;
+    padding:15px 40px;
+    border:1px #d9dde1 solid;
+    border-bottom: none;
+    line-height:32px;
+    background-size: 100%;
+    z-index: 3;
+    /*box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);*/
+}
+#menue-content .field1-content{
+    background:url("http://www.imooc.com/static/img/home/fe.png") no-repeat;
+}
+#menue-content h3{
+    color:#f01414;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 0;
+}
+
+#menue-content span.type{
+    font-weight: bold;
+    font-size:15px;
+    margin-right:8px;
+}
+
+#menue-content a{
+    color:#120D0C;
+    margin:0 8px;
+    font-weight: 100;
+    font-size:15px;
+}
+#menue-content a:hover{
+    cursor: hand;
+    color:red;
+}
+#menue-content a.rec-link{
+    margin-left:-1px;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
