@@ -215,19 +215,14 @@ div.headright .codearea .apptype{
     height:460px;
     box-sizing: border-box;
     background-color:rgba(0,0,0,0.2);
-    /*padding:10px 25px;*/
     position:absolute;
     z-index:2;
     top:0;
-    cursor:pointer;
-}
-#menue li.field1{
-    padding-top:10px;
 }
 #menue li:hover{
     background-color:rgba(100,100,100,0.6);
 }
-#menue li a{
+#menue a.title{
     color:#fff;
     font-size:17px;
     display: block;
@@ -240,7 +235,7 @@ div.headright .codearea .apptype{
     margin:auto;
 }
 
-#menue li span{
+#menue a.title span{
     color: rgba(255,255,255,0.4);
     position:absolute;
     right:0;
@@ -249,50 +244,51 @@ div.headright .codearea .apptype{
 #menue .field7 a{
     border-bottom:none;
 }
-#menue-content>div{
+#menue .content img{
     position:absolute;
-    left:245px;
-    top:0;
+    left:246px;
+    top:0px;
+    border:1px solid #d9dde1;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#menue .content .desc{
+    position:absolute;
     width:652px;
     height:429px;
     padding:15px 40px;
-    border:1px #d9dde1 solid;
-    border-bottom: none;
     line-height:32px;
-    background-size: 100%;
-    z-index: 3;
-    /*box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);*/
+    left:246px;
+    top:4px;
 }
-#menue-content .field1-content{
-    background:url("http://www.imooc.com/static/img/home/fe.png") no-repeat;
+#menue .content{
+    display: none;
+    cursor:auto;
 }
-#menue-content h3{
+#menue .content h3{
     color:#f01414;
     font-size:17px;
     font-weight:bold;
     padding: 10px 0;
 }
-
-#menue-content span.type{
+#menue .content span.type{
     font-weight: bold;
     font-size:15px;
     margin-right:8px;
 }
-
-#menue-content a{
+#menue .content a{
     color:#120D0C;
     margin:0 8px;
     font-weight: 100;
     font-size:15px;
 }
-#menue-content a:hover{
-    cursor: hand;
+#menue .content a:hover{
     color:red;
 }
-#menue-content a.rec-link{
+#menue .content a.rec-link{
     margin-left:-1px;
     font-size:15px;
 }
+
 
 
 
