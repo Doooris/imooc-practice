@@ -247,9 +247,9 @@ div.headright .codearea .apptype{
 #menue .content img{
     position:absolute;
     left:246px;
-    top:0px;
+    top:-1px;
     border:1px solid #d9dde1;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);*/
 }
 #menue .content .desc{
     position:absolute;
@@ -288,6 +288,113 @@ div.headright .codearea .apptype{
     margin-left:-1px;
     font-size:15px;
 }
+.outwrap-rec .wrap-rec{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.outwrap-rec .inside img{
+    height:124px;
+    width:224px
+}
+.outwrap-rec .title{
+    margin-bottom:30px;
+    height:50px;
+}
+.outwrap-rec .free-course-title{
+    margin-top:-20px;
+}
+.outwrap-rec .title h3{
+    font-size:17px;
+    color:#07111b;
+    line-height:100px;
+}
+.outwrap-rec .title a{
+    float:right;
+    font-size:14px;
+    color:#4d555d;
+    margin-top:-50px;
+}
+.outwrap-rec .title a:hover{
+    color:#aaaaaa;
+}
+.outwrap-rec .outside{
+    width:1220px;
+    height:192px;
+    box-sizing: border-box;
+}
+.outwrap-rec .outside .inside{
+    width:224px;
+    height:168px;
+    overflow: hidden;
+    position:relative;
+    box-shadow: 2px 4px 8px #E9E9E9;
+    float:left;
+    margin-right:20px;
+}
+.outwrap-rec .inside .course-box{
+    width:224px;
+    height:144px;
+    box-sizing:border-box;
+    position:absolute;
+    top:90px;
+    padding:10px 20px 5px 20px;
+    background-image: url("http://www.imooc.com/static/moco/v1.0/dist/images/bg-course.png");
+    background-size:cover;
+}
+.outwrap-rec .course-box .course-caption{
+    font-size:15px;
+    color:#07111b;
+    line-height:24px;
+    font-weight:500;
+    margin-bottom: 6px;
+}
+.outwrap-rec .course-box .course-caption span{
+    background-color:#93999f;
+    color:white;
+    padding:1px;
+    padding-bottom:0;
+    margin-right:3px;
+}
+.outwrap-rec .course-box .course-intro{
+    color:#93999f;
+    font-size:12px;
+    line-height:18px;
+    word-break: break-all;
+}
+.outwrap-rec .course-bottom{
+    width:224px;
+    box-sizing:border-box;
+    position:absolute;
+    padding:8px 20px;
+    padding-bottom:18px;
+    background-color: #fff;
+}
+.outwrap-rec .course-bottom .price{
+    color:#ec1500;
+    font-size:12px;
+}
+.outwrap-rec .course-bottom .number{
+    color:#93999f;
+    font-size:12px;
+    float:right;
+}
+.outwrap-rec .course-bottom .free-course-number{
+    color:#93999f;
+    font-size:12px;
+
+}
+.outwrap-rec .inside:hover .course-box{
+    top:30px;
+    transition:top .6s;
+}
+.outwrap-rec .inside:hover{
+    box-shadow: 3px 8px 10px #ccc;
+}
+
+
+
+
 
 
 
