@@ -323,16 +323,16 @@ div.headright .codearea .apptype{
     height:192px;
     box-sizing: border-box;
 }
-.outwrap-rec .outside .inside{
+.inside{
     width:224px;
-    height:168px;
+    height:172px;
     overflow: hidden;
     position:relative;
     box-shadow: 2px 4px 8px #E9E9E9;
     float:left;
     margin-right:20px;
 }
-.outwrap-rec .inside .course-box{
+.inside .course-box{
     width:224px;
     height:144px;
     box-sizing:border-box;
@@ -342,31 +342,31 @@ div.headright .codearea .apptype{
     background-image: url("http://www.imooc.com/static/moco/v1.0/dist/images/bg-course.png");
     background-size:cover;
 }
-.outwrap-rec .course-box .course-caption{
+.course-box .course-caption{
     font-size:15px;
     color:#07111b;
-    line-height:24px;
+    line-height:27px;
     font-weight:500;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 }
-.outwrap-rec .course-box .course-caption span{
+.course-caption span{
     background-color:#93999f;
     color:white;
     padding:1px;
     padding-bottom:0;
     margin-right:3px;
 }
-.outwrap-rec .course-box .course-intro{
+.course-box .course-intro{
     color:#93999f;
     font-size:12px;
-    line-height:18px;
+    line-height:16px;
     word-break: break-all;
 }
-.outwrap-rec .course-bottom{
+.course-bottom{
     width:224px;
     box-sizing:border-box;
     position:absolute;
-    padding:8px 20px;
+    padding:10px 20px;
     padding-bottom:18px;
     background-color: #fff;
 }
@@ -379,20 +379,159 @@ div.headright .codearea .apptype{
     font-size:12px;
     float:right;
 }
-.outwrap-rec .course-bottom .free-course-number{
+.course-bottom .course-number-left{
     color:#93999f;
     font-size:12px;
 
 }
-.outwrap-rec .inside:hover .course-box{
+.inside:hover .course-box{
     top:30px;
     transition:top .6s;
 }
-.outwrap-rec .inside:hover{
+.inside:hover{
     box-shadow: 3px 8px 10px #ccc;
 }
+.outwrap-study{
+    background-color:#F3F5F7;
+    margin-top:30px;
+}
+.outwrap-study .outside{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+.outwrap-study .part-head img{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.outwrap-study .part-head-content{
+    width: 224px;
+    height: 364px;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 30px 20px;
+    z-index:2;
+}
+.outwrap-study .part-head h1{
+    color:#fff;
+}
+.outwrap-study a.work-path{
+    color:#fff;
+    font-size:16px;
+    display: block;
+    margin:32px 0;
+}
+.outwrap-study .work-path:hover span{
+    margin-left:15px;
+}
+.outwrap-study .part-head-content span{
+    position:absolute;
+    font-size:10px;
+    margin-left:10px;
+}
+.outwrap-study .part-head-content .head-link{
+    padding-right:20px;
+    position:absolute;
+    bottom:15px;
+}
+.outwrap-study .part-head .head-link a{
+    color:#cc0033;
+    font-size:12px;
+    line-height:24px;
+    overflow:hidden;
+    display:inline-block;
+    height:24px;
+}
+.outwrap-study .part-head .head-link a:hover{
+    color:#ec1500;
+}
+.outwrap-study .part-content{
+    width:956px;
+    height:364px;
+    box-sizing: border-box;
+    position:absolute;
+    padding-left:244px;
 
+}
+.outwrap-study .part-content .middle{
+    padding-left:488px;
 
+}
+.outwrap-study .middle .inside{
+    margin-bottom: 20px;
+
+}
+.outwrap-study .part-content .left{
+    position:absolute;
+    top:0;
+}
+.outwrap-study .part-content .left div{
+    width:468px;
+    height:172px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #E9E9E9;
+}
+.outwrap-study .part-content .left div:hover{
+    box-shadow:3px 8px 10px #ccc ;
+}
+.outwrap-study .part-content .left p{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:bold;
+    line-height:172px;
+    text-align:center;
+    overflow: hidden;
+}
+.outwrap-study .part-content .right{
+    position:absolute;
+    width:224px;
+    height:364px;
+    top:0;
+    right:-248px;
+    box-shadow: 0 4px 8px #E9E9E9;
+}
+.outwrap-study .part-content .right:hover{
+    box-shadow: 0 5px 12px rgba(128, 128, 128, 0.73);
+}
+.right .link-list span:after{
+    content:" ";
+    width:3px;
+    height:3px;
+    background:black;
+    position:absolute;
+    left:0;
+    top:6px;
+}
+.right .link-list{
+    margin-left:20px;
+    position: absolute;
+    line-height:30px;
+    top:180px;
+}
+.right .link-list span{
+    padding-left:20px;
+    font-size:12px;
+    line-height:30px;
+    color:#07111b;
+    position:relative;
+}
+.right .link-list span:hover{
+    color:#ec1500;
+}
+.right .link-list span:hover:after{
+    background: #ec1500;;
+}
+.outwrap-study .right .inside{
+    box-shadow: none;
+}
+.outwrap-study .right .inside .course-bottom{
+    padding-left:0;
+    border-bottom: solid 1px #D9DDE1;
+    padding-bottom:14px;
+    width:184px;
+    margin:0 20px;
+}
 
 
 
