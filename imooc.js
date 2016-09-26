@@ -12,6 +12,18 @@ $(function(){
   }
 );
 $(function(){
+    $(".footer-sns .wx").hover(
+      function(){
+        $(".wx-code").show();
+      },
+      function(){
+        $(".wx-code").hide();
+      }
+    );
+
+  }
+);
+$(function(){
     $(".field1").hover(
       function(){
         $(".field1-content").show();

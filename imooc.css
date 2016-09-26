@@ -392,26 +392,25 @@ div.headright .codearea .apptype{
     box-shadow: 3px 8px 10px #ccc;
 }
 .outwrap-study{
+    width:100%;
+    height:2707px;
     background-color:#F3F5F7;
     margin-top:30px;
+    padding-top:50px;
 }
-.outwrap-study .outside{
+.outwrap-study .outwrap-part1{
     width:1200px;
     margin:0 auto;
     position:relative;
 }
-.outwrap-study .part-head img{
-    position:absolute;
-    left:0;
-    top:0;
-}
-.outwrap-study .part-head-content{
+.outwrap-study .part-head{
     width: 224px;
     height: 364px;
     box-sizing: border-box;
     position: absolute;
     padding: 30px 20px;
     z-index:2;
+    background: url("http://static.mukewang.com/static/img/home/Web.png?t=1") no-repeat;
 }
 .outwrap-study .part-head h1{
     color:#fff;
@@ -425,17 +424,17 @@ div.headright .codearea .apptype{
 .outwrap-study .work-path:hover span{
     margin-left:15px;
 }
-.outwrap-study .part-head-content span{
+.outwrap-study .part-head span{
     position:absolute;
     font-size:10px;
     margin-left:10px;
 }
-.outwrap-study .part-head-content .head-link{
+.outwrap-study .head-link{
     padding-right:20px;
     position:absolute;
     bottom:15px;
 }
-.outwrap-study .part-head .head-link a{
+.outwrap-study .head-link a{
     color:#cc0033;
     font-size:12px;
     line-height:24px;
@@ -475,7 +474,7 @@ div.headright .codearea .apptype{
 .outwrap-study .part-content .left div:hover{
     box-shadow:3px 8px 10px #ccc ;
 }
-.outwrap-study .part-content .left p{
+.outwrap-study .subhead{
     color:#FFFFFF;
     font-size:20px;
     font-weight:bold;
@@ -483,15 +482,17 @@ div.headright .codearea .apptype{
     text-align:center;
     overflow: hidden;
 }
-.outwrap-study .part-content .right{
+.outwrap-study .right{
     position:absolute;
     width:224px;
     height:364px;
     top:0;
     right:-248px;
+    background-color: #fff;
     box-shadow: 0 4px 8px #E9E9E9;
+    overflow: hidden;
 }
-.outwrap-study .part-content .right:hover{
+.outwrap-study .right:hover{
     box-shadow: 0 5px 12px rgba(128, 128, 128, 0.73);
 }
 .right .link-list span:after{
@@ -506,15 +507,19 @@ div.headright .codearea .apptype{
 .right .link-list{
     margin-left:20px;
     position: absolute;
-    line-height:30px;
     top:180px;
+    width:165px;
+    height:162px;
+    padding-right:20px;
+    overflow: hidden;
 }
 .right .link-list span{
     padding-left:20px;
     font-size:12px;
-    line-height:30px;
+    line-height:31px;
     color:#07111b;
     position:relative;
+    white-space: nowrap;
 }
 .right .link-list span:hover{
     color:#ec1500;
@@ -532,10 +537,283 @@ div.headright .codearea .apptype{
     width:184px;
     margin:0 20px;
 }
+.outwrap-study .outwrap-part2{
 
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:414px;
+}
+.outwrap-study .outwrap-part2 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/Java.png?t=1") no-repeat;
+}
+.outwrap-part2 .head-link a{
+    color:#006699;
+}
+.outwrap-study .outwrap-part2 .head-link a:hover{
+    color:#0088cc;
+}
+.outwrap-study .main-bottom{
+    margin-top:20px;
+}
+.outwrap-study .lastinside{
+    margin-right:0;
+}
+.outwrap-study .outwrap-part3 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/PHP.png?t=1") no-repeat;
+}
+.outwrap-study .outwrap-part3{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:828px;
+}
+.outwrap-part3 .head-link a{
+    color:#333399;
+}
+.outwrap-study .outwrap-part3 .head-link a:hover{
+    color:#4343cc;
+}
+.outwrap-part3 .left-co{
+    width:468px;
+    height:364px;
+    position:absolute;
+    background:url('http://img.mukewang.com/57e3707e0001af1504680364.jpg') no-repeat;
+}
+.outwrap-part3 .left-co a{
+    width:468px;
+    height:364px;
+    position:absolute;
+}
+.outwrap-part3 .left-co .subhead{
+    margin-top:50px;
+}
+.outwrap-part3 .left-co .line{
+    height:1px;
+    width:206px;
+    background-color:#ffffff;
+    margin:auto;
+    margin-top:-60px;
+    opacity: 0.5;
+}
+.outwrap-part3 .left-co .subhead-exp{
+    color:#FFFFFF;
+    font-size:14px;
+    text-align: center;
+    margin-top:20px;
+    font-weight:900;
+}
+.outwrap-part4{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:1242px;
+}
+.outwrap-part4 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/Android.png?t=1") no-repeat;
+}
+.outwrap-part4 .part-head .head-link a{
+    color:#006633;
+}
+.outwrap-part4 .part-head .head-link a:hover{
+    color:#00994d;
+}
+.outwrap-part5{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:1655px;
+}
+.outwrap-part5 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/iOS.png?t=1") no-repeat;
+}
+.outwrap-part5 .part-head .head-link a{
+    color:#006666;
+}
+.outwrap-part5 .part-head .head-link a:hover{
+    color:#009999;
+}
+.head-exp{
+    color:#FFFFFF;
+    font-size:14px;
+    margin-top:20px;
+}
+.outwrap-part6{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:2065px;
+}
+.outwrap-part6 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/Linux.png?t=1") no-repeat;
+}
+.outwrap-part6 .part-content{
+    width:100%;
+}
+.outwrap-part7{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+    top:2284px;
+}
+.outwrap-part7 .part-head{
+    background: url("http://static.mukewang.com/static/img/home/shoujileft.png?t=1") no-repeat;
+}
+.outwrap-part7 .part-head a{
+    color:#FFFFFF;
+    display: inline-block;
+    border:1px solid #FFFFFF;
+    width:184px;
+    height:34px;
+    font-size:14px;
+    border-radius: 3px;
+    line-height:34px;
+    text-align: center;
+    margin-bottom:8px;
+}
+.outwrap-part7 .part-head .head-link a:hover{
+    color:#FFFFFF;
+}
+.outwrap-study .outwrap-part7 .part-content {
+    position:absolute;
+    left:244px;
+    width:956px;
+    height: 364px;
+}
+.outwrap-part7 .part-content>div{
+    width:468px;
+    height:172px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px #E9E9E9;
+    position:absolute;
+}
+.outwrap-part7 .part-content .section1{
+    left:0;
+    top:0;
 
+}
+.outwrap-part7 .part-content .section2{
+    left:0;
+    bottom:0;
+}
+.outwrap-part7 .part-content .section3{
+    right:0;
+    top:0;
+}
+.outwrap-part7 .part-content .section4{
+    right:0;
+    bottom:0;
+}
 
+.outwrap-part7 .part-content>div:hover{
+    box-shadow: 0 8px 10px #ccc;
+}
+.outwrap-part7 .part-content .title{
+    color:#07111b;
+    font-size:20px;
+    font-weight:bold;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.outwrap-part7 .section-content{
+    position:absolute;
+    left:120px;
+    top:23px;
+}
+.outwrap-part7 .section-content a{
+    color:#07111b;
+    font-size:14px;
+    line-height:32px;
+    display: inline-block;
+    width:350px;
+    padding-left:20px;
+}
+.outwrap-part7 .section-content a:hover{
+    color:#ec1500;
+}
+.footer .outwrap-footer{
+    padding-top:30px;
+    padding-bottom:30px;
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+.footer-sns{
+    position:absolute;
+    left:600px;
+    margin-left:-94px;
+}
+.footer-sns a{
+    float:left;
+    height:32px;
+    width:32px;
+    margin-right:25px;
+    background-image: url("http://static.mukewang.com/static/img/idx-btm.png");
+}
+.footer-sns .xlwb{
+    background-position:0 367px ;
+}
+.footer-sns .wx{
+    background-position:-52px 367px;
 
+}
+.footer-sns .txwb{
+    background-position:-104px 367px ;
+}
+.footer-sns .qzone{
+    background-position: -156px 367px;
+}
+.footer-sns .xlwb:hover{
+    background-position:0 326px ;
+}
+.footer-sns .wx:hover{
+    background-position:-52px 326px;
+}
+.footer-sns .txwb:hover{
+    background-position:-104px 326px ;
+}
+.footer-sns .qzone:hover{
+    background-position: -156px 326px;
+}
+.footer-sns .wx-code{
+    height:215px;
+    width:176px;
+    position:absolute;
+    background-image: url("http://static.mukewang.com/static/img/idx-btm.png");
+    top:-220px;
+    left:-14px;
+    display:none;
+}
+.footer-link{
+    width:1200px;
+    text-align: center;
+    padding-top:60px;
+}
+.footer-link ul li{
+    display: inline-block;
+    margin-right:20px;
+}
+.footer-link li a{
+    color:#99a1a6;
+    font-size:15px;
+    font-weight:400;
+}
+.footer-link li a:hover{
+    color:#be3948;
+}
+.outwrap-footer{
+    border-bottom: 1px solid #d0d6d9 ;
+}
+.website-info{
+    margin:20px auto;
+    width:1200px;
+    text-align: center;
+}
+.website-info p{
+    color:#b4bbbf;
+    font-size:12px;
+}
 
 
 
